@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import StateWise from './components/stateWiseData/stateWise'
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
