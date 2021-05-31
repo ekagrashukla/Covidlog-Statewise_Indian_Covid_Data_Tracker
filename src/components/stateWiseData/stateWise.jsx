@@ -19,19 +19,13 @@ const StateWise = () => {
     
     return (
         <>
-
             <div>
                 <Navbar/>
-                <table class="table table-striped table-bordered table-hover" id="table"
-  data-search="true"
-  data-show-columns="true"
-  data-show-multi-sort="true"
-  data-sort-priority='[{"sortName": "github.count.forks","sortOrder":"desc"},{"sortName":"github.count.stargazers","sortOrder":"desc"}]'
-  data-url="json/data3.json">
+                <table class="table table-striped table-bordered table-hover">
                     <thead class="table-dark">
                         <tr>
                                 <th> # </th>
-                                <th data-field="github.name" data-sortable="true"> State </th>
+                                <th> State </th>
                                 <th> Confirmed </th>
                                 <th> Recovered </th>
                                 <th> Deaths </th>
